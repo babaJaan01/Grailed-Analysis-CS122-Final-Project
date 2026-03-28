@@ -22,7 +22,7 @@ The top will display the filter section that is separated into 3 distinct sectio
 
 _**Data Collection and Storage Plan (Aetius Gular)**_
 
-[copypaste]
+We will create our dataset by building a webscraper that utilizes Playwright to collect data across new and sold listings that then converts the data that is collected from json to CSV for easier analysis. For each listing we will get key attributes such as price, item type, location, brand, etc. We also plan to have a maintained storage plan for the data (ie raw data, cleaned data, processed data) to keep the different stages of the dataset organized. If necessary we might consider storing the data in a light SQLite database to enable fast querying in integration with our GUI.
 
 _**Data Analysis/Visualization Plan (Shayaan Tanveer)**_
 
