@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "grailed_jwt",
+      "value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE4MjM0ODY2LCJqdGkiOiI0YTkyY2RlNC0yNzBkLTRlNGYtOWM2Ni1lZjBkMTM0ZmJjZDkiLCJpc3MiOiJHcmFpbGVkLXByb2R1Y3Rpb24iLCJhY3QiOiJhdXRoIiwiaWF0IjoxNzY5NjMxODY2fQ.xKG-DJ4UNusiUIdzJ55EHR0s32k-bnlh_RRUNLtF_ac",
+      "domain": ".grailed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csrf_token",
+      "value": "mOfQ97lmtm6HzqjLy03-VI5Sig09Mez1uIl9MTraamFEg-eBGRuqeFLpnJd7TEoELE97IBhEsqfBw7PmchzJ_w",
+      "domain": ".grailed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_grailed_session",
+      "value": "R8xtt5Y3VXFtkaxdqgjN5qkp491sJ4iF%2FmOdcMntinq1%2BxXsQcz5JOXCGnhH3jcaSwGDjDLuYHe5b2YUVujo5l7EsQLP52KPrab1ocZApLrlYXfCjIZqzOaZ%2B0hjsRqc1USZAa9LEDP4pU6V7w6nQAqDQrFS8eC%2BG1THPJagCfGDzY1u%2F3TSniAn9hURpSWtkjchRpwvN6LUs1%2BhT38OfLDj3JdbhUb%2BHJdNv%2Bv4U19drqB2nUBfIxDzaG2zTegTeJXb%2BLSQsewWHdGZpCTpv%2Bd4uXTZSGu1DyVcE7jkTF%2Bs%2BYvhprFUgK9r2NGUhg%3D%3D--Yek7CuId2KHUgAHZ--4WfAubo695mzvwbsIw9lqg%3D%3D",
+      "domain": ".grailed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
