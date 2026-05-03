@@ -6,8 +6,13 @@ Scraper/grailed_auth.json
 Scraper/algolia_creds.json
 Scraper/seen_ids.txt
 Scraper/scraper.log
+
+# Raw and uncompressed scrape output — only commit the gzipped CSV in data/
 Scraper/sold_listings.jsonl
 Scraper/sold_listings.csv
+Scraper/sold_listings.csv.gz
+data/sold_listings.jsonl
+# data/sold_listings.csv.gz IS committed (gzipped, well under 100MB)
 
 # Python
 __pycache__/

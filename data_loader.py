@@ -4,7 +4,10 @@ import os
 import numpy as np
 import pandas as pd
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "sold_listings.csv")
+_DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+_GZ_PATH = os.path.join(_DATA_DIR, "sold_listings.csv.gz")
+_CSV_PATH = os.path.join(_DATA_DIR, "sold_listings.csv")
+DATA_PATH = _GZ_PATH if os.path.exists(_GZ_PATH) else _CSV_PATH
 
 _LIST_COLS = ["price_drops", "designers", "traits", "styles", "badges"]
 
