@@ -1,0 +1,250 @@
+# Grailed sold-listings query seed list
+# One query per line. Lines starting with # are ignored.
+# Edit freely — order doesn't matter, dedup is automatic across runs.
+
+# --- Avant-garde / designer ---
+rick owens
+raf simons
+maison margiela
+yohji yamamoto
+comme des garcons
+junya watanabe
+issey miyake
+helmut lang
+undercover
+number nine
+jil sander
+dries van noten
+ann demeulemeester
+acne studios
+our legacy
+lemaire
+balenciaga
+vetements
+y project
+kapital
+visvim
+sacai
+kiko kostadinov
+jw anderson
+loewe
+jacquemus
+marni
+martine rose
+bode
+erl
+saint michael
+mastermind japan
+readymade
+carol christian poell
+boris bidjan saberi
+julius
+geo
+hood by air
+enfants riches deprimes
+
+# --- Designer / luxury ---
+saint laurent
+hedi slimane
+dior
+dior homme
+prada
+miu miu
+gucci
+bottega veneta
+burberry
+hermes
+celine
+givenchy
+valentino
+versace
+fendi
+moschino
+paul smith
+
+# --- Sartorial ---
+tom ford
+brioni
+loro piana
+brunello cucinelli
+zegna
+canali
+isaia
+kiton
+ralph lauren
+polo ralph lauren
+rrl
+
+# --- Streetwear / hype ---
+supreme
+stussy
+bape
+a bathing ape
+off white
+fear of god
+essentials
+palace
+kith
+aime leon dore
+cactus plant flea market
+anti social social club
+vlone
+chrome hearts
+travis scott
+yeezy
+kanye west
+drew house
+human made
+nigo
+cdg play
+gallery dept
+amiri
+rhude
+awake ny
+brain dead
+noah
+online ceramics
+
+# --- Japanese / archive / niche ---
+needles
+engineered garments
+wtaps
+neighborhood
+fragment design
+maison mihara yasuhiro
+sasquatchfabrix
+nonnative
+beams
+junya
+takahiromiyashita
+
+# --- Workwear / outdoor / vintage ---
+carhartt
+carhartt wip
+dickies
+levis
+levis vintage
+patagonia
+the north face
+arcteryx
+arc'teryx
+salomon
+stone island
+cp company
+moncler
+canada goose
+filson
+
+# --- Footwear ---
+nike
+jordan
+air jordan
+adidas
+yeezy boost
+new balance
+converse
+vans
+asics
+hoka
+on running
+golden goose
+common projects
+maison margiela sneakers
+balenciaga sneakers
+
+# --- Basics / accessible ---
+apc
+uniqlo
+uniqlo u
+norse projects
+
+# --- Item categories: tops ---
+t shirt
+graphic tee
+vintage tee
+hoodie
+sweatshirt
+crewneck
+sweater
+knitwear
+cardigan
+flannel
+button up
+oxford shirt
+polo shirt
+turtleneck
+
+# --- Item categories: bottoms ---
+denim
+selvedge denim
+jeans
+raw denim
+cargo pants
+trousers
+chinos
+shorts
+sweatpants
+
+# --- Item categories: outerwear ---
+blazer
+suit
+overcoat
+trench coat
+peacoat
+leather jacket
+denim jacket
+bomber jacket
+varsity jacket
+parka
+puffer jacket
+windbreaker
+fleece
+vest
+chore coat
+
+# --- Item categories: footwear types ---
+sneakers
+boots
+chelsea boots
+combat boots
+loafers
+derby shoes
+oxford shoes
+
+# --- Accessories ---
+backpack
+tote bag
+messenger bag
+wallet
+belt
+sunglasses
+watch
+necklace
+ring
+cap
+beanie
+bucket hat
+scarf
+
+# --- Womenswear ---
+dress
+skirt
+blouse
+heels
+handbag
+
+# --- General keywords (catches long-tail) ---
+vintage
+archive
+japanese
+military
+workwear
+techwear
+gorpcore
+y2k
+grunge
+made in japan
+made in italy
+made in usa
+deadstock
+cashmere

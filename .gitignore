@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Scraper auth + cache (do not commit credentials or local state)
+Scraper/grailed_auth.json
+Scraper/algolia_creds.json
+Scraper/seen_ids.txt
+Scraper/scraper.log
+Scraper/sold_listings.jsonl
+Scraper/sold_listings.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

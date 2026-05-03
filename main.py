@@ -2,15 +2,15 @@ import sys
 import tkinter as tk
 from tkinter import messagebox
 
-from data_loader import load_data, DATA_PATH
-from gui import AnalysisPage
+from data_loader import load_raw, DATA_PATH
+from gui import App
 
 
 def main():
     path = sys.argv[1] if len(sys.argv) > 1 else DATA_PATH
 
     try:
-        df = load_data(path)
+        raw_df = load_raw(path)
     except FileNotFoundError:
         root = tk.Tk()
         root.withdraw()
@@ -21,15 +21,8 @@ def main():
         )
         return
 
-    root = tk.Tk()
-    root.title("Grailed Sales Analysis")
-    root.geometry("1000x680")
-    root.minsize(800, 560)
-
-    page = AnalysisPage(root, df)
-    page.pack(fill=tk.BOTH, expand=True)
-
-    root.mainloop()
+    app = App(raw_df)
+    app.mainloop()
 
 
 if __name__ == "__main__":
