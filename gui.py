@@ -27,8 +27,8 @@ from visualization import (
 )
 
 GRAPH_TYPES = ["Bar", "Histogram", "Scatter", "Box", "Pie", "Heatmap", "Line"]
-CATEGORY_OPTS = ["top_category", "designer_names", "location", "condition", "color", "department"]
-METRIC_OPTS = ["sold_price", "discount_rate", "days_to_sell", "price"]
+CATEGORY_OPTS = ["top_category", "designer_names", "location", "condition", "color", "department", "size"]
+METRIC_OPTS = ["sold_price", "discount_rate", "days_to_sell", "price", "sold_shipping_price"]
 
 _CATEGORY_LABELS = {
     "top_category": "Category",
@@ -37,12 +37,14 @@ _CATEGORY_LABELS = {
     "condition": "Condition",
     "color": "Color",
     "department": "Department",
+    "size": "Size",
 }
 _METRIC_LABELS = {
     "sold_price": "Sold Price ($)",
     "discount_rate": "Discount Rate (%)",
     "days_to_sell": "Days to Sell",
     "price": "Original Price ($)",
+    "sold_shipping_price": "Shipping Price ($)",
 }
 
 

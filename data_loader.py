@@ -96,6 +96,9 @@ def clean_data(df, log=None):
     if "condition" in df.columns:
         df["condition"] = df["condition"].fillna("unknown").astype(str).str.strip().str.lower()
 
+    if "size" in df.columns:
+        df["size"] = df["size"].fillna("unknown").astype(str).str.strip().str.lower()
+
     if "price_drops" in df.columns:
         df["num_price_drops"] = df["price_drops"].apply(len)
         df["had_price_drop"] = df["num_price_drops"] > 0

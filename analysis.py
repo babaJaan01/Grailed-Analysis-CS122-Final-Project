@@ -103,7 +103,7 @@ def price_point_analysis(df, bins=20):
         count=("sold_price", "count"),
         avg_days_to_sell=("days_to_sell", "mean") if "days_to_sell" in trimmed else ("sold_price", "count"),
     ).reset_index()
-    grouped["bucket_mid"] = grouped["price_bucket"].apply(lambda iv: (iv.left + iv.right) / 2)
+    grouped["bucket_mid"] = grouped["price_bucket"].apply(lambda iv: (iv.left + iv.right) / 2).astype(float)
 
     if grouped["count"].sum() == 0:
         return None
