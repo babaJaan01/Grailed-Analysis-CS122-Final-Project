@@ -29,11 +29,21 @@ We will create our dataset by building a webscraper that utilizes Playwright to 
 _**How to Run**_
 
 ```bash
+# 0. Activate python venv
+conda activate [env]
+
 # 1. Install dependencies
 pip install -r requirements.txt
 
 # 2. Launch the GUI
 python main.py
+
+or use
+
+python3
+
+# 3. Sample scraper can be seen through:
+python grailed_api_scraper.py
 ```
 
 Place `sold_listings.csv` in the `data/` folder before running. A placeholder file is included so the program runs out of the box.
